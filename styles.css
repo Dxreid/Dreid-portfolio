@@ -1,91 +1,84 @@
-html { 
-    font-family: 'Courier New', Courier, monospace;
-    height: 100%;
-}
-
 body {
+font-family: 'Courier New', Courier, monospace;
+margin: 0;
+}
+
+.headerContainer {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    min-height: 100vh;
-    margin: 0;
+    padding: 10px;
+    background-color: #e2e2e2;
 }
 
-.headerBar {
-    display: flex;
-    flex-shrink: 1;
-    flex-direction: row;
-    background-color: #EFEFEF;
-    justify-content: space-between;
-}
-
-.leftHandHeader .rightHandHeader {
+.headerContainerLeft {
     display: flex;
 }
 
-.leftHandHeader {
-    margin-right: 70%;
-}
-
-.fourLeafLogo {
-    width: 75px;
+.headerContainerRight {
+    display: flex;
 }
 
 .icon {
-    display: flex;
-    width: 50px;
-    margin-right: 30px;
+    max-width: 50px;
+    padding-right: 10px;
 }
 
-ul {
-    list-style: none;
-    display: flex;
+.fourLeafLogo {
+    max-width: 75px;
 }
 
 .aboutMeSection {
-    display:flex;
-    margin-top: 2%;
-    height: 100%;
-    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5% 5% 0 5%
 }
 
 .aboutMeLeftSide {
-    display: flex;
-    flex-direction: column;
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 60%;
-    flex: 1 1 0;
-    overflow: auto;
+    max-width: 600px;
+    display: block;
+    height:auto; 
 }
 
-.thisIsMe {
-    max-width: 500px;
+
+.myself {
+    max-width: 350px;
+    display: block;
+    border-radius: 360px;
     height: auto;
-    display: flex;
-    flex: 1 1 0;
-    border-radius: 20%;
+}
+
+.skillsSectionContainer {
+    display: flex; 
+    justify-content: center;
+    margin: 5% 5% 0 5%;
 }
 
 .skillsSection {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+}
+
+.projectSectionContainer {
+    display: flex;
+    justify-content: center;
+    margin: 5% 5% 0 5%;
 }
 
 .projectSection {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
 }
 
+
+
 .footer {
-    display: flex; 
-    font-weight: bold;
-    justify-content: center;
+    display: flex;
     margin-top: auto;
-    background-color: #1f2937;
-    font-size: 18px;
-    color:#E5E7EB;
+    justify-content: center;
+    margin: 5% 0 0 0;
+    font-weight: bold;
+    background-color: #e2e2e2;
 }
