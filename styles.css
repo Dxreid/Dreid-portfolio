@@ -1,3 +1,91 @@
+html { 
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.headerBar {
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: row;
+    background-color: #EFEFEF;
+    justify-content: space-between;
+}
+
+.leftHandHeader .rightHandHeader {
+    display: flex;
+}
+
+.leftHandHeader {
+    margin-right: 70%;
+}
+
+.fourLeafLogo {
+    width: 75px;
+}
+
 .icon {
-    width: 10px;
+    display: flex;
+    width: 50px;
+    margin-right: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.aboutMeSection {
+    display:flex;
+    margin-top: 2%;
+    height: 100%;
+    margin: 5%;
+}
+
+.aboutMeLeftSide {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 60%;
+    flex: 1 1 0;
+    overflow: auto;
+}
+
+.thisIsMe {
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    flex: 1 1 0;
+    border-radius: 20%;
+}
+
+.skillsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.projectSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer {
+    display: flex; 
+    font-weight: bold;
+    justify-content: center;
+    margin-top: auto;
+    background-color: #1f2937;
+    font-size: 18px;
+    color:#E5E7EB;
 }
