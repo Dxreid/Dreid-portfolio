@@ -1,4 +1,4 @@
-body {
+    body {
 font-family: 'Courier New', Courier, monospace;
 margin: 0;
 }
@@ -30,21 +30,20 @@ margin: 0;
 .aboutMeSection {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
     margin: 5% 5% 0 5%
 }
 
 .aboutMeLeftSide {
-    max-width: 600px;
-    display: block;
+    max-width: 800px;
     height:auto; 
 }
 
 
 .myself {
     max-width: 350px;
-    display: block;
-    border-radius: 360px;
+    border-radius: 10px;
     height: auto;
 }
 
