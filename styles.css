@@ -32,6 +32,11 @@
     height: 3rem;
     padding-left: 0.5rem;
   }
+
+  .resume {
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
   
   .aboutMeSection {
     display: flex;
