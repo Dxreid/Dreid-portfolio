@@ -1,83 +1,86 @@
-    body {
-font-family: 'Courier New', Courier, monospace;
-margin: 0;
-}
-
-.headerContainer {
+  body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .headerContainer {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    align-items: center;
     background-color: #e2e2e2;
-}
-
-.headerContainerLeft {
+  }
+  
+  .headerContainerLeft {
     display: flex;
-}
-
-.headerContainerRight {
+    align-items: center;
+  }
+  
+  .headerContainerRight {
     display: flex;
-}
+  }
 
-.icon {
-    height: 3rem;
+  .socialNav {
+    list-style: none;
+    display:flex;
+  }
+
+  .socialNavButtons {
+    max-height: 3rem;
     padding-right: 0.5rem;
-}
+  }
 
-.fourLeafLogo {
-    height:3rem;
-}
-
-.aboutMeSection {
+  .fourLeafLogo {
+    height: 3rem;
+    padding-left: 0.5rem;
+  }
+  
+  .aboutMeSection {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    margin: 5% 5% 0 5%
-}
-
-.aboutMeLeftSide {
+    margin: 5% 5% 0 5%;
+  }
+  
+  .aboutMeLeftSide {
     max-width: 800px;
-    height:auto; 
-}
-
-
-.myself {
+    height: auto;
+  }
+  
+  .myself {
     max-width: 20rem;
     border-radius: 10px;
     height: auto;
-}
+  }
+  
 
-.skillsSectionContainer {
-    display: flex; 
+  
+  .projectSectionContainer {
+    display: flex;
     justify-content: center;
+    align-items: center;
     margin: 5% 5% 0 5%;
-}
-
-.skillsSection {
+  }
+  
+  .projectSection {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.projectSectionContainer {
+  }
+  
+  .footer {
     display: flex;
     justify-content: center;
-    margin: 5% 5% 0 5%;
-}
-
-.projectSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-
-.footer {
-    display: flex;
-    margin-top: auto;
-    justify-content: center;
-    margin: 5% 0 0 0;
+    padding: 0.5rem;
     font-weight: bold;
     background-color: #e2e2e2;
-}
+    margin-top: auto;
+  }
+
+  
+
+  
+  
