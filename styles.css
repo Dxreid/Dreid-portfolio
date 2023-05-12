@@ -12,17 +12,8 @@
     align-items: center;
     background-color: #e2e2e2;
   }
-  
-  .headerContainerLeft {
-    display: flex;
-    align-items: center;
-  }
-  
-  .headerContainerRight {
-    display: flex;
-  }
 
-  .socialNav {
+  .icons {
     list-style: none;
     display:flex;
   }
@@ -41,8 +32,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
-    margin: 5% 5% 0 5%;
+    justify-content: center;
+    margin: 3rem 3rem 3rem 3rem;
   }
   
   .aboutMeLeftSide {
@@ -54,15 +45,15 @@
     max-width: 20rem;
     border-radius: 10px;
     height: auto;
+    margin-right: 3rem;
   }
-  
-
   
   .projectSectionContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5% 5% 0 5%;
+    margin: 3rem 3rem 3rem 3rem;
   }
   
   .projectSection {
@@ -79,6 +70,28 @@
     background-color: #e2e2e2;
     margin-top: auto;
   }
+
+
+  h1 {
+    align-self: center;
+  }
+
+  .skillSection {
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin: 3rem 3rem 3rem 3rem;
+  }
+
+
+  .skillLogo {
+    max-height: 8rem;
+    padding-right: 3rem;
+    display:flex;
+  }
+
 
   
 
